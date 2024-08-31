@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import "./App.scss";
-import { Provider, useDispatch, useSelector } from "react-redux";
-import store, { AppDispatch, RootState } from "./store";
+import { Provider } from "react-redux";
+import store from "./store";
 import Tab from "./components/Tab";
-import { fetchUsers } from "./store/actions/dataActions";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import TabOne from "./components/TabOne";
 import TabTwo from "./components/TabTwo";

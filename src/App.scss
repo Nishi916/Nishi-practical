@@ -42,17 +42,17 @@
     border: none;
     border-radius: 5px;
     width: 100%;
-    height: 400px; /* Adjust as needed */
+    height: 400px; 
   }
   
   button {
-    @extend .btn;
-    @extend .btn-primary;
+    @extend .btn !optional;
+    @extend .btn-primary !optional;
   }
   
   input[type="number"] {
-    @extend .form-control;
-    width: auto; /* Adjust width if needed */
+    @extend .form-control !optional;
+    width: auto;
   }
   
   ul {
